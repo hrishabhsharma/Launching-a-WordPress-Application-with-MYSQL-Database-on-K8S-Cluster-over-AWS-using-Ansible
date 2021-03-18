@@ -1,0 +1,4 @@
+- hosts: ["tag_Name_K8S_Master"]
+  roles:
+  - name: "Launching Wordpress and Mysql"
+    role: "/k8s-multi-node-cluster/wordpress-mysql"
